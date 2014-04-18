@@ -101,12 +101,12 @@
 
 #ifdef PSBVIDEO_MRFL_VPP
 #define PSB_MAX_PROFILES			VAProfileMax
-#define PSB_MAX_ENTRYPOINTS			VAEntrypointMax
+#define PSB_MAX_ENTRYPOINTS			5
 #define PSB_MAX_CONFIG_ATTRIBUTES		VAConfigAttribTypeMax
 #define PSB_MAX_BUFFERTYPES			VABufferTypeMax
 #else
 #define PSB_MAX_PROFILES                        18
-#define PSB_MAX_ENTRYPOINTS                     VAEntrypointMax
+#define PSB_MAX_ENTRYPOINTS                     5
 #define PSB_MAX_CONFIG_ATTRIBUTES               10
 #define PSB_MAX_BUFFERTYPES                     VABufferTypeMax
 #endif
